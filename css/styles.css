@@ -627,6 +627,7 @@ button {
 
 /* ----------------------------FOOTER--------------------------------------------- */
 .footer{
+    position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -739,6 +740,10 @@ color: #FFFFFF;
 .social-contacts-footer{
     display: flex;
     gap:70px;
+}
+
+.submit-form{
+    position: absolute;
 }
 /* -------------------------------- MODAL-WINDOW ----------------------------- */
 

@@ -394,16 +394,23 @@
                     </ul>
             </div>
             <div>
-                <form>
-                    <h3></h3>
-
+                <form class="submit-form">
+                    <h3>Подпишитесь на рассылку</h3>
+                    <input type="mail"
+                    name="user_mail"
+                    class="submit-mail"
+                    required
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    placeholder="E-mail"
+                    />
+                    <button type="submit" class="modal-form-submit">Подписаться</button>
                 </form>
             </div>
         </section>
             </address>
         
     </footer>
-    <div class="backdrop is-hidden" data-modal > 
+    <div class="backdrop is-hidden" data-modal> 
         <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
             <svg class="modal-close-btn-icon" width="18" height="18">
