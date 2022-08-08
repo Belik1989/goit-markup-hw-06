@@ -745,6 +745,7 @@ color: #FFFFFF;
 .subscribe{
 display: flex;
 
+
 }
 .subscribe-form{
     position: absolute;
@@ -781,9 +782,11 @@ display: flex;
 }
 .subscribe-items{
     display: flex;
+    
 }
 .subscribe-form-btn{
     display: flex;
+    outline: none;
 }
 .subscribe-form-submit-btn{
     /* position: absolute; */
@@ -804,8 +807,9 @@ display: flex;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     padding: 10px 28px;
-    transition: background var(--transition-dur-and-func), color var(--transition-dur-and-func)
-    
+    transition: background var(--transition-dur-and-func), color var(--transition-dur-and-func);
+    outline: none;
+    border:none ;
 }
 .subscribe-form-submit-btn:hover,
 .subscribe-form-submit-btn:focus{
