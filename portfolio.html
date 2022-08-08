@@ -255,6 +255,25 @@
                     </li>
                 </ul>
         </div>
+        <div class="subscribe">
+            <form class="subscribe-form">
+                <h3 class="subscribe-form-title">Подпишитесь на рассылку</h3>
+            <div class="subscribe-items">
+                <input type="email"
+                name="user_email"                    
+                class="subscribe-form-mail"
+                required
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                placeholder="E-mail"
+                />
+                <button type="submit" class="subscribe-form-submit-btn">Подписаться 
+                    <svg class="subscribe-form-input-icon" width="24" height="24">
+                        <use href="./images/sprite.svg#icon-send"></use>
+                        </svg>
+                </button>
+            </div>
+        </form>
+        </div>
     </section>
         </address>
     
